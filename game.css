@@ -1,0 +1,39 @@
+#id1 {
+            font-size: 50px;
+        }
+
+        #play {
+            text-decoration: none;
+        }
+
+        .heart {
+            font-size: 50px;
+            color: black;
+            animation: beating-heart 2s infinite;
+        }
+
+
+        @keyframes beating-heart {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(0.75);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+        .roundclass{
+            color: white; height:80%; width:10%;background-color: black; border-radius:50%; padding: 15px;
+        }
+
+        .row {
+            margin: 0%;
+        }
+
+        #1, #2, #3, #4, #5, #6, .overfl{
+            overflow : hidden;
+        }

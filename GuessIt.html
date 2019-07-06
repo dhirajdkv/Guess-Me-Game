@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <title>Guess Me!</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body onLoad="setbackground();">
+    <div class="row" style="padding:1%;margin: 0%; background-color: black;">
+        <div class="col-sm-12 text-center">
+            <h1 id="headd" style="color:white; font-family: 'Oswald', sans-serif;">GUESS ME!</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 text-center">
+                <div class="row">
+                        <div class="col-sm-6">
+                                <div id="heart1" class="heart">&#9829;</div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div id="heart2" class="heart">&#9829;</div>
+                        </div>
+                    </div>
+        </div>
+        <div class="col-sm-6" style="padding: 2%;">
+            <div class="row  overfl">
+                <div class="col-sm-12 d-flex justify-content-around overfl">
+                    <div contenteditable="true" class="1 roundclass" id='1'>
+                    </div>
+                    <div contentEditable="true" class="2 roundclass" id="2">
+                    </div>
+                    <div contentEditable="true" class="3 roundclass" id="3">
+                    </div>
+                    <div contentEditable="true" class="4 roundclass" id="4">
+                    </div>
+                    <div contentEditable="true" class="5 roundclass" id="5">
+                    </div>
+                    <div contentEditable="true" class="6 roundclass" id="6">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row"  id="row2">
+                <div class="col-sm-12 d-flex justify-content-around">
+                     <div contenteditable="true" class="1 roundclass" id="11">
+                    </div>
+                    <div contenteditable="true" class="2 roundclass" id="12">
+                    </div>
+                    <div contenteditable="true" class="3 roundclass" id="13">
+                    </div>
+                    <div contenteditable="true" class="4 roundclass" id="14">
+                    </div>
+                    <div contenteditable="true" class="5 roundclass" id="15">
+                    </div>
+                    <div contenteditable="true" class="6 roundclass" id="16">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row" id="row3">
+                <div class="col-sm-12 d-flex justify-content-around">
+                     <div contenteditable="true" class="1 roundclass" id="21">
+                    </div>
+                    <div contenteditable="true" class="2 roundclass" id="22">
+                    </div>
+                    <div contenteditable="true" class="3 roundclass" id="23">
+                    </div>
+                    <div contenteditable="true" class="4 roundclass" id="24">
+                    </div>
+                    <div contenteditable="true" class="5 roundclass" id="25">
+                    </div>
+                    <div contenteditable="true" class="6 roundclass" id="26">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row" id="row4">
+                <div class="col-sm-12 d-flex justify-content-around">
+                     <div contenteditable="true" class="1 roundclass" id="31">
+                    </div>
+                    <div contenteditable="true" class="2 roundclass" id="32">
+                    </div>
+                    <div contenteditable="true" class="3 roundclass" id="33">
+                    </div>
+                    <div contenteditable="true" class="4 roundclass" id="34">
+                    </div>
+                    <div contenteditable="true" class="5 roundclass" id="35">
+                    </div>
+                    <div contenteditable="true" class="6 roundclass" id="36">
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="col-sm-3 text-center">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div id="heart3" class="heart">&#9829;</div>
+                </div>
+                <div class="col-sm-6">
+                    <div id="heart4" class="heart">&#9829;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="padding:1%;margin: 0%; background-color: black;">
+        <div class="col-sm-12 text-center">
+            <a id="play" href="GuessIt.html">
+                <h4 style="color:white; font-family: 'Oswald', sans-serif;">PLAY AGAIN!</h4>
+            </a>
+        </div>
+    </div>
+    <script src="game.js">
+
+    </script>
+</body>
+</html>
